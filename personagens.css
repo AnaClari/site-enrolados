@@ -1,0 +1,43 @@
+body{
+    background-color: #1B1A55;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: white;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 16px;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    height: 100%;
+    font-size: small;
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        display: block;
+        margin: 2em 2em;
+        align-items: center;
+    }
+
+
+    img{
+        width: 60%;
+    }
+
+    }
